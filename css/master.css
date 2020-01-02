@@ -1,0 +1,47 @@
+header{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    background-image: url("../images/backgroundUpperBanner1.jpg");
+}
+.headshot{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.headline{
+    position: absolute;
+    left: 50%;
+}
+.name{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+.office{
+    position: relative;
+    top: -40px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+.email{
+    position: relative;
+    top: -40px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-column-gap: 50px;
+    width: 90%
+}
+aside{
+    grid-column: 1;
+}
+section{
+    grid-column: 2;
+    line-height: 1.6;
+}
