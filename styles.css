@@ -320,6 +320,47 @@ a:hover {
     font-style: italic;
 }
 
+.publications-list h3 {
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.publications-list h3:first-child {
+    margin-top: 0;
+}
+
+.publication-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.publication-items li {
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+    line-height: 1.6;
+    color: var(--color-text-light);
+}
+
+.publication-items li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.publication-items strong {
+    color: var(--color-text);
+}
+
+.publication-items em {
+    color: var(--color-text);
+}
+
 /* Media Section */
 .media-content {
     max-width: 800px;
