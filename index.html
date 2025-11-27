@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Escobar Velasquez | Statistics Researcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">Nicolas Escobar Velasquez</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Nicolas Escobar Velasquez</h1>
+            <p class="subtitle">Ph.D. Student in Statistical Science</p>
+            <p class="affiliation">Indiana University Bloomington</p>
+            <div class="hero-links">
+                <a href="https://scholar.google.com/citations?user=PB8JF8cAAAAJ&hl=en" target="_blank" class="btn">Google Scholar</a>
+                <a href="https://github.com/nicoesve" target="_blank" class="btn btn-outline">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About</h2>
+                <p>I am a Ph.D. student in Statistical Science at Indiana University Bloomington. My research focuses on developing statistical methods for manifold-valued data, with applications in neuroimaging and brain connectome analysis.</p>
+                <p>I am particularly interested in Riemannian geometry approaches to statistical inference on symmetric positive definite matrices, which naturally arise in the analysis of correlation and covariance structures.</p>
+            </div>
+        </section>
+
+        <section id="research" class="section section-alt">
+            <div class="container">
+                <h2>Research Interests</h2>
+                <div class="research-grid">
+                    <div class="research-item">
+                        <h3>Riemannian Statistics</h3>
+                        <p>Statistical inference on Riemannian manifolds, including hypothesis testing and estimation for manifold-valued data.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Neuroimaging Analysis</h3>
+                        <p>Statistical methods for brain connectome analysis using symmetric positive definite matrices.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Computational Methods</h3>
+                        <p>Efficient algorithms for statistical computations on manifolds, including parallel processing frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="software" class="section">
+            <div class="container">
+                <h2>Software</h2>
+                <div class="software-grid">
+                    <div class="software-card">
+                        <h3>riemtan</h3>
+                        <p class="software-tagline">Streamlined statistical analysis of connectomes</p>
+                        <p>An R package implementing Riemannian geometry tools for symmetric positive definite matrices. Features include:</p>
+                        <ul>
+                            <li>Five metrics: AIRM, Log-Euclidean, Euclidean, Log-Cholesky, Bures-Wasserstein</li>
+                            <li>Logarithmic and exponential maps</li>
+                            <li>Frechet mean computation and covariance estimation</li>
+                            <li>Apache Arrow/Parquet backend for memory efficiency</li>
+                            <li>Parallel processing via futureverse (3-8x speedup)</li>
+                        </ul>
+                        <a href="https://github.com/nicoesve/riemtan" target="_blank" class="btn btn-small">View on GitHub</a>
+                    </div>
+                    <div class="software-card">
+                        <h3>riemstats</h3>
+                        <p class="software-tagline">ANOVA on Riemannian manifolds</p>
+                        <p>An R package for statistical analysis on Riemannian manifolds, designed for ANOVA testing on manifold-valued data. Features include:</p>
+                        <ul>
+                            <li>Permutation-based ANOVA for exact inference</li>
+                            <li>Multiple test statistics (Log-Wilks lambda, Pillai's trace)</li>
+                            <li>Batch effect correction (ComBat, rigid alignment)</li>
+                            <li>Preprocessing tools for manifold data</li>
+                        </ul>
+                        <a href="https://github.com/nicoesve/riemstats" target="_blank" class="btn btn-small">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section section-alt">
+            <div class="container">
+                <h2>Publications</h2>
+                <p class="section-note">For a complete list of publications, please visit my <a href="https://scholar.google.com/citations?user=PB8JF8cAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.</p>
+                <div class="publications-list">
+                    <!-- Add publications here as they become available -->
+                    <p class="placeholder-text">Publication list coming soon.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="media" class="section">
+            <div class="container">
+                <h2>Presentations & Media</h2>
+                <div class="media-content">
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/FeeSp4NfXMc"
+                            title="Research Presentation"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:nescoba@iu.edu">nescoba@iu.edu</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Office</h3>
+                        <p>Swain Hall East 215<br>Indiana University Bloomington</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Links</h3>
+                        <p>
+                            <a href="https://github.com/nicoesve" target="_blank">GitHub</a> |
+                            <a href="https://scholar.google.com/citations?user=PB8JF8cAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nicolas Escobar Velasquez. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
