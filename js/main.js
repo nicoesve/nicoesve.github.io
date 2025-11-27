@@ -100,18 +100,3 @@ document.querySelectorAll('.section').forEach(section => {
     section.classList.add('fade-in');
     fadeInObserver.observe(section);
 });
-
-// Add CSS for fade-in animation dynamically
-const style = document.createElement('style');
-style.textContent = `
-    .fade-in {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-    .fade-in-visible {
-        opacity: 1;
-        transform: translateY(0);
-    }
-`;
-document.head.appendChild(style);
